@@ -1,4 +1,4 @@
 skrips
 ======
 
-Project of hair сabinet site skrips.ru
+Project of hair dresser сabinet site skrips.ru
