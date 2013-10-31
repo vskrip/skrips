@@ -21,11 +21,7 @@ $this->breadcrumbs=array(
 		<p>
 			<a href="mailto:sp_skrip@mail.ru">sp_skrip@mail.ru</a>
 		</p>
-		<div>
-			<h4>Внешний вид фасада здания</h4>
-			<img />
-		</div>
-		<div>
+		<div class="scheme">
 			<img src="../../images/scheme.png">
 			<h4>Схема проезда</h4>
 			<!--TODO: Устранить отображение нотационного окна в схеме проезда-->
