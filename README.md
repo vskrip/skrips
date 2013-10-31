@@ -3,6 +3,7 @@ skrips.ru
 #Desctiption
 
 Project of hair dresser сabinet site skrips.ru
+<<<<<<< HEAD
 This project builded with PHP, HTML, CSS, JavaScript, MySQL technologies and
 based on the Yii Framework 1.1.14 version.
 
@@ -77,3 +78,5 @@ For correct working with date function of the PHP to add the next row into /prot
 ~~~
 'timeZone' => 'Europe/Moscow'
 ~~~
+=======
+>>>>>>> 9446be1ed7824e3988b5c317ddf1f61118013a8c
