@@ -2,8 +2,7 @@ skrips.ru
 =========
 #Desctiption
 
-Project of hair dresser сabinet site skrips.ru
-<<<<<<< HEAD
+Project of hair dresser сabinet site skrips.ru.
 This project builded with PHP, HTML, CSS, JavaScript, MySQL technologies and
 based on the Yii Framework 1.1.14 version.
 
