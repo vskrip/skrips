@@ -78,5 +78,3 @@ For correct working with date function of the PHP to add the next row into /prot
 ~~~
 'timeZone' => 'Europe/Moscow'
 ~~~
-=======
->>>>>>> 9446be1ed7824e3988b5c317ddf1f61118013a8c
