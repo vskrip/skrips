@@ -22,7 +22,7 @@ return array(
 	'modules'=>array(
 			'gii'=>array(
 				'class'=>'system.gii.GiiModule',
-				'password'=>'rjgthybr',
+				'password'=>'password',
 				'ipFilters'=>array('127.0.0.1'),
 		),
 	),
@@ -55,7 +55,7 @@ return array(
 			'emulatePrepare' => true,
 			'enableProfiling' =>YII_DEBUG_PROFILING,
 			'username' => 'root',
-			'password' => 'rjgthybr',
+			'password' => 'password',
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
