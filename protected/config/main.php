@@ -22,7 +22,7 @@ return array(
 	'modules'=>array(
 			'gii'=>array(
 				'class'=>'system.gii.GiiModule',
-				'password'=>'rjgthybr',
+				'password'=>'password',
 				'ipFilters'=>array('127.0.0.1'),
 		),
 	),
@@ -54,8 +54,8 @@ return array(
 			'connectionString' => 'mysql:host=192.168.1.23;dbname=sblog',
 			'emulatePrepare' => true,
 			'enableProfiling' =>YII_DEBUG_PROFILING,
-			'username' => 'root',
-			'password' => 'rjgthybr',
+			'username' => 'blogdb_user',
+			'password' => 'password',
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
