@@ -50,6 +50,7 @@ return array(
 			'tablePrefix' => 'tbl_',
 		),
 		*/
+        
 		'db'=>array(
 			'connectionString' => 'mysql:host=192.168.1.23;dbname=sblog',
 			'emulatePrepare' => true,
