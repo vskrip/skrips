@@ -5,11 +5,6 @@
 $this->breadcrumbs=array(
 	'Виды деятельности',
 );
-
-$this->menu=array(
-	array('label'=>'Создать вид деятельности', 'url'=>array('create')),
-	array('label'=>'Управление видом деятельности', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Виды деятельности</h1>
