@@ -155,22 +155,17 @@ class Post extends CActiveRecord
 	 */
 	protected function beforeSave()
 	{
-		if(parent::beforeSave())
-		{
-			if($this->isNewRecord)
-			{
+		if (parent::beforeSave()) {
+			if ($this->isNewRecord) {
 				$this->create_time=$this->update_time=time();
 				$this->author_id=Yii::app()->user->id;
-			}
-			else
-			{
+			} else {
 				$this->update_time=time();				
 			}
 			$this->language=Yii::app()->language;
 			return true;
 		}
-		else
-			return false;
+		return false;
 	}
 
 	/**

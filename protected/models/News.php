@@ -98,19 +98,15 @@ class News extends CActiveRecord
 	{
 		if(parent::beforeSave())
 		{
-			if($this->isNewRecord)
-			{
+			if($this->isNewRecord) {
 				$this->create_time=$this->update_time=time();
-			}
-			else
-			{
+			}else{
 				$this->update_time=time();				
 			}
 			$this->language=Yii::app()->language;
 			return true;
 		}
-		else
-			return false;
+		return false;
 	}
 
 	/**
