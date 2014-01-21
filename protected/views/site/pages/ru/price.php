@@ -172,7 +172,7 @@ $this->breadcrumbs=array(
                                 <td class="price_column_right">от 50</td>
                             </tr>
                             <tr>
-                                <td>Фелировка</td>
+                                <td>Филировка</td>
                                 <td class="price_column_right">от 50</td>
                             </tr>
                             <tr>
@@ -284,10 +284,6 @@ $this->breadcrumbs=array(
                             <tr>
                                 <td>Снятие гель-лака</td>
                                 <td class="price_column_right">300</td>
-                            </tr>
-                            <tr>
-                                <td>Снятие искуственных ногтей</td>
-                                <td class="price_column_right">от 500</td>
                             </tr>
                             <tr>
                                 <td>Полировка ногтей</td>
