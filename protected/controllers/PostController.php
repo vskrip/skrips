@@ -20,10 +20,12 @@ class PostController extends Controller
 	}
 	
 	public function actions(){
-	        return array(
-	            'captcha'=>array(
-	                'class'=>'CCaptchaAction',
-	        ),
+        return array (
+            // captcha action renders the CAPTCHA image displayed on the contact page
+            'captcha'=>array(
+			    'class'=>'CCaptchaAction',
+                'backColor'=>0xFFFFFF,
+            ),
 	    );
 	}
 

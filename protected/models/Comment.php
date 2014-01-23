@@ -51,7 +51,7 @@ class Comment extends CActiveRecord
 		  	array(
 		          'verifyCode',
 		          'captcha',
-		          'allowEmpty'=>!Yii::app()->user->isGuest || !CCaptcha::checkRequirements(),
+                  'allowEmpty'=>!Yii::app()->user->isGuest || !CCaptcha::checkRequirements(),                  
 		     ),
 		);
 	}
